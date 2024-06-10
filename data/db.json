@@ -10,22 +10,14 @@
     },
     {
       "id": "2158",
-      "username": "yago",
+      "username": "eduardo",
       "password": "abcd",
-      "email": "yagocarvalho2001@gmail.com",
+      "email": "eduardo@gmail.com",
       "role": "Admin",
       "status": "Online"
     }
   ],
-  "products": [
-    {
-      "id": "3452",
-      "name": "Milho",
-      "description": "Milho conservado",
-      "price": "10000",
-      "stock": "-2"
-    }
-  ],
+  "products": [],
   "services": [
     {
       "id": "f350",
