@@ -23,7 +23,7 @@
 /* Rótulos */
 label {
   font-weight: 600;
-  color: #495057; /* Texto escuro */
+  color: white; /* Texto escuro */
   margin-bottom: 8px;
   transition: color 0.3s ease;
 }
@@ -42,7 +42,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border-color: #00BFA6;
+  border-color: #69b75a;
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
   background-color: #ffffff; /* Fundo branco */
 }
@@ -50,7 +50,7 @@ textarea:focus {
 /* Botões */
 button {
   padding: 12px;
-  background-color: #00BFA6; /* Azul */
+  background-color: #69b75a; /* Azul */
   color: #ffffff; /* Texto branco */
   border: none;
   border-radius: 6px;
@@ -61,7 +61,7 @@ button {
 }
 
 button:hover {
-  background-color: #009d86; /* Azul mais escuro */
+  background-color: #69b75a; /* Azul mais escuro */
   transform: translateY(-2px);
 }
 

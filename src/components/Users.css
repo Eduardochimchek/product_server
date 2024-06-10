@@ -44,7 +44,7 @@
 
 /* Botões do Formulário */
 .users-container button {
-  background-color: #00BFA6;
+  background-color: #69b75a;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -82,7 +82,7 @@
 
 /* Botões dos Itens de Usuário */
 .user-buttons .btn {
-  background-color: #00BFA6;
+  background-color: #69b75a;
   color: white;
   padding: 5px 10px;
   border: none;

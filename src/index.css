@@ -218,4 +218,5 @@ th {
   height: calc(100vh - 80px);
   display: grid;
   grid-template-rows: 40px auto 95px;
+  width: 96%;
 }

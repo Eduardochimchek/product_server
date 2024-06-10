@@ -1,6 +1,6 @@
 /* Navbar Container */
 .navbar {
-  background-color: #00BFA6; /* Verde */
+  background-color: #69b75a; /* Verde */
   color: white;
   transition: background-color 0.3s, color 0.3s, border-top-left-radius 0.3s, border-top-right-radius 0.3s;
   padding: 10px 20px;

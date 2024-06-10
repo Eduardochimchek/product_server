@@ -39,7 +39,7 @@
   display: block;
   margin-bottom: 8px;
   font-weight: 600;
-  color: #495057; /* Texto escuro */
+  color: white; /* Texto escuro */
 }
 
 /* Campos de entrada e texto */
@@ -56,7 +56,7 @@
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #00BFA6;
+  border-color: #69b75a;
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
   background-color: #ffffff; /* Fundo branco */
 }
@@ -70,7 +70,7 @@
 /* Botões */
 button.btn {
   padding: 12px;
-  background-color: #00BFA6; /* Azul */
+  background-color: #69b75a; /* Azul */
   color: #ffffff; /* Texto branco */
   border: none;
   border-radius: 6px;
@@ -79,7 +79,7 @@ button.btn {
 }
 
 button.btn:hover {
-  background-color: #009d86; /* Azul mais escuro */
+  background-color: #69b75a; /* Azul mais escuro */
   transform: translateY(-2px);
 }
 
