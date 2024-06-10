@@ -1,15 +1,13 @@
 .footer {
-    background-color: #00BFA6; /* Fundo azul no modo claro */
+    background-color: #69b75a; /* Fundo azul no modo claro */
     color: #ffffff; /* Texto branco */
     padding: 40px 20px;
     text-align: center;
     border-top: 4px solid #00BFA6; /* Borda superior azul */
-    border-bottom-left-radius: 10px; /* Arredonda a borda inferior esquerda */
-    border-bottom-right-radius: 10px; /* Arredonda a borda inferior direita */
 }
 
 .footer a {
-    color: #00BFA6;
+    color: #69b75a;
     text-decoration: none;
 }
 

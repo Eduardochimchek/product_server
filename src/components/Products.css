@@ -18,7 +18,7 @@
 
 /* Botões */
 .products-container .btn {
-    background-color: #00BFA6;
+    background-color: #69b75a;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -31,7 +31,7 @@
 }
 
 .products-container .btn:hover {
-    background-color: #009d86; /* Um tom ligeiramente mais escuro */
+    background-color: #69b75a; /* Um tom ligeiramente mais escuro */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 

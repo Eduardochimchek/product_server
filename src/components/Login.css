@@ -18,6 +18,8 @@
 /* Grupo de formulário */
 .form-group {
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .form-group label{
@@ -44,14 +46,14 @@
 }
 
 .login-form input:focus {
-  border-color: #00BFA6; /* Cor de destaque */
+  border-color: #69b75a; /* Cor de destaque */
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.25); /* Efeito de sombra */
   background-color: #ffffff; /* Fundo branco */
 }
 
 /* Botão de login */
 .btn {
-  background-color: #00BFA6; /* Cor do botão */
+  background-color: #69b75a; /* Cor do botão */
   color: #ffffff; /* Cor do texto */
   border: none;
   border-radius: 6px;
