@@ -1,0 +1,123 @@
+/* Container Principal dos Serviços */
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Título dos Serviços */
+.services-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+/* Formulário de Serviço */
+.service-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+/* Inputs do Formulário */
+.service-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+}
+
+/* Botões do Formulário */
+.service-form .btn {
+  background-color: #00BFA6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.service-form .cancel-btn {
+  background-color: #6c757d;
+}
+
+.service-form .btn:hover {
+  background-color: #008d77;
+}
+
+.service-form .cancel-btn:hover {
+  background-color: #5a6268;
+}
+
+/* Lista de Serviços */
+.service-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Item de Serviço */
+.service-item {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Botões dos Itens de Serviço */
+.service-buttons .btn {
+  background-color: #00BFA6;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+.service-buttons .edit-btn {
+  background-color: #28a745;
+}
+
+.service-buttons .delete-btn {
+  background-color: #dc3545;
+}
+
+.service-buttons .btn:hover {
+  background-color: #008d77;
+}
+
+.service-buttons .edit-btn:hover {
+  background-color: #218838;
+}
+
+.service-buttons .delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Mensagem de Nenhum Serviço */
+.no-services {
+  color: #666;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: color 0.3s;
+}

@@ -1,10 +1,39 @@
 {
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin",
+      "email": "admin@gmail.com",
+      "role": "Admin",
+      "status": "Online"
+    },
+    {
+      "id": "2158",
+      "username": "yago",
+      "password": "abcd",
+      "email": "yagocarvalho2001@gmail.com",
+      "role": "Admin",
+      "status": "Online"
+    }
+  ],
   "products": [
     {
-      "name": "Uva",
-      "price": "15",
-      "stock": "30",
-      "id": "630f"
+      "id": "3452",
+      "name": "Milho",
+      "description": "Milho conservado",
+      "price": "10000",
+      "stock": "-2"
+    }
+  ],
+  "services": [
+    {
+      "id": "f350",
+      "name": "1",
+      "description": "1",
+      "price": "1",
+      "category": "1",
+      "duration": "1"
     }
   ]
 }
