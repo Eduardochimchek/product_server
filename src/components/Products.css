@@ -1,0 +1,100 @@
+/* Container de Produtos */
+.products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.products-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+/* Botões */
+.products-container .btn {
+    background-color: #00BFA6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.products-container .btn:hover {
+    background-color: #009d86; /* Um tom ligeiramente mais escuro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Lista de Produtos */
+.product-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+.product-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+}
+
+.product-item div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Botões de Produto */
+.product-buttons .btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.product-buttons .edit-btn {
+    background-color: #28a745;
+}
+
+.product-buttons .delete-btn {
+    background-color: #dc3545;
+}
+
+.product-buttons .btn:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.product-buttons .edit-btn:hover {
+    background-color: #218838;
+}
+
+.product-buttons .delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Mensagem de Sem Produtos */
+.no-products {
+    color: #666;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: color 0.3s;
+}

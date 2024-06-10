@@ -1,0 +1,52 @@
+/* Navbar Container */
+.navbar {
+  background-color: #00BFA6; /* Verde */
+  color: white;
+  transition: background-color 0.3s, color 0.3s, border-top-left-radius 0.3s, border-top-right-radius 0.3s;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Navigation */
+.navbar-nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0; /* Remove o margin padrão */
+}
+
+.nav-item {
+  margin: 0;
+}
+
+/* Navbar Links */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s, text-decoration 0.3s;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Navbar Links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.navbar a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Navbar List Items */
+.navbar li {
+  margin-right: 20px;
+  list-style-type: none;
+}
