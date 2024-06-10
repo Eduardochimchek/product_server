@@ -1,0 +1,29 @@
+/* Container principal */
+.error-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f9fa; /* Fundo branco */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.error-content {
+  text-align: center;
+}
+
+.error-title {
+  font-size: 2rem;
+  color: #dc3545; /* Vermelho */
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: #495057; /* Texto escuro */
+  margin-bottom: 20px;
+}
+
+.error-help {
+  color: #6c757d; /* Cinza */
+}

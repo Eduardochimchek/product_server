@@ -1,0 +1,68 @@
+/* Container principal */
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #ffffff; /* Fundo branco */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centralizar texto */
+}
+
+/* Formulário */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Grupo de formulário */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Rótulos */
+.login-form label {
+  font-weight: 600;
+  color: #333333; /* Texto escuro */
+  margin-bottom: 8px;
+  display: block; /* Adicionar quebra de linha */
+}
+
+/* Campos de entrada */
+.login-form input {
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  background-color: #f8f9fa; /* Fundo branco */
+}
+
+.login-form input:focus {
+  border-color: #00BFA6; /* Cor de destaque */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25); /* Efeito de sombra */
+  background-color: #ffffff; /* Fundo branco */
+}
+
+/* Botão de login */
+.btn {
+  background-color: #00BFA6; /* Cor do botão */
+  color: #ffffff; /* Cor do texto */
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #009688; /* Cor de destaque ao passar o mouse */
+}
+
+/* Mensagem de erro */
+.error-message {
+  color: #ff0000; /* Cor vermelha para mensagem de erro */
+  margin-bottom: 10px;
+}
