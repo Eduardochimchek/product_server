@@ -23,6 +23,7 @@ const Products = () => {
     }
   };
 
+  
   const handleRemove = async (productId) => {
     try {
       await fetch(`http://localhost:3000/products/${productId}`, {

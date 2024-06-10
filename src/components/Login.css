@@ -1,12 +1,12 @@
 /* Container principal */
 .login-container {
-  max-width: 400px;
-  margin: 100px auto;
+  min-width: 400px;
   padding: 20px;
-  background-color: #ffffff; /* Fundo branco */
+  background-color: #295e9d; /* Fundo branco */
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   text-align: center; /* Centralizar texto */
+  border: 1px solid #838383
 }
 
 /* Formulário */
@@ -20,10 +20,14 @@
   margin-bottom: 20px;
 }
 
+.form-group label{
+  color: white;
+}
+
 /* Rótulos */
 .login-form label {
   font-weight: 600;
-  color: #333333; /* Texto escuro */
+  color: white; /* Texto escuro */
   margin-bottom: 8px;
   display: block; /* Adicionar quebra de linha */
 }
