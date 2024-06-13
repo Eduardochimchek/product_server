@@ -80,8 +80,8 @@ const AddProduct = () => {
             onChange={handleInputChange}
           />
         </div>
-        <button type="submit" className="btn">Adicionar</button>
-        <button type="button" className="btn" onClick={() => navigate(-1)}>Voltar</button>
+        <button type="submit" className="btn product-add-btn">Adicionar</button>
+        <button type="button" className="btn product-back-btn" onClick={() => navigate(-1)}>Voltar</button>
       </form>
     </div>
   );
