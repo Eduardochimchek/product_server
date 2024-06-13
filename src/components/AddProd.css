@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  width: 100vh;
   background-color: #f7f7f7; /* Fundo branco */
   padding: 20px;
 }

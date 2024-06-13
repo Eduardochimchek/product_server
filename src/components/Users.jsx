@@ -117,7 +117,7 @@ const Users = () => {
             onChange={(e) => setStatus(e.target.value)}
           />
         </div>
-        <button type="submit">Adicionar</button>
+        <button className="btn users-add-btn" type="submit">Adicionar</button>
       </form>
       {users.length === 0 ? (
         <p className="no-users">Não há nenhum usuário cadastrado.</p>
@@ -131,8 +131,8 @@ const Users = () => {
                 <strong>Cargo:</strong> {user.role} <strong>Status:</strong> {user.status}
               </div>
               <div className="user-buttons">
-                <button onClick={() => handleRemove(user.id)} className="btn delete-btn">Remover</button>
                 <Link to={`/usuarios/editar/${user.id}`} className="btn edit-btn">Editar</Link>
+                <button onClick={() => handleRemove(user.id)} className="btn delete-btn">Remover</button>
               </div>
             </li>
           ))}

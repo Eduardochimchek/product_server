@@ -95,7 +95,7 @@
 }
 
 .service-buttons .edit-btn {
-  background-color: #28a745;
+  background-color: #ffc107;
 }
 
 .service-buttons .delete-btn {
@@ -107,7 +107,7 @@
 }
 
 .service-buttons .edit-btn:hover {
-  background-color: #218838;
+  background-color: #daa710;
 }
 
 .service-buttons .delete-btn:hover {
@@ -120,4 +120,8 @@
   font-size: 18px;
   margin-top: 20px;
   transition: color 0.3s;
+}
+
+.service-add-btn{
+  background-color: #295e9d !important;
 }

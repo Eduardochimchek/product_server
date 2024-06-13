@@ -56,8 +56,6 @@
 }
 
 .product-item div {
-    display: flex;
-    flex-direction: column;
 }
 
 /* Botões de Produto */
@@ -72,7 +70,7 @@
 }
 
 .product-buttons .edit-btn {
-    background-color: #28a745;
+    background-color: #ffc107;
 }
 
 .product-buttons .delete-btn {
@@ -84,7 +82,7 @@
 }
 
 .product-buttons .edit-btn:hover {
-    background-color: #218838;
+    background-color: #daa710;
 }
 
 .product-buttons .delete-btn:hover {
@@ -97,4 +95,7 @@
     font-size: 18px;
     margin-top: 20px;
     transition: color 0.3s;
+}
+.product-add-btn{
+    background-color: #295e9d !important;
 }
