@@ -17,7 +17,15 @@
       "status": "Online"
     }
   ],
-  "products": [],
+  "products": [
+    {
+      "id": "30c0",
+      "name": "dfsd",
+      "description": "sdfs",
+      "price": "5",
+      "stock": "5"
+    }
+  ],
   "services": [
     {
       "id": "f350",
