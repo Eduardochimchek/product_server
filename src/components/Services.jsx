@@ -127,7 +127,7 @@ const Services = () => {
           onChange={(e) => setDuration(e.target.value)}
           required
         />
-        <button type="submit" className="btn">{editingService ? 'Atualizar' : 'Adicionar'}</button>
+        <button type="submit" className="btn service-add-btn">{editingService ? 'Atualizar' : 'Adicionar'}</button>
         {editingService && <button onClick={() => setEditingService(null)} className="btn cancel-btn">Cancelar</button>}
       </form>
       {services.length === 0 ? (

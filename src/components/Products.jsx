@@ -38,7 +38,7 @@ const Products = () => {
   return (
     <div className="products-container">
       <h2>Produtos</h2>
-      <Link to="/produtos/adicionar" className="btn">Adicionar Produto</Link>
+      <Link to="/produtos/adicionar" className="btn product-add-btn">Adicionar Produto</Link>
       {products.length === 0 ? (
         <p className="no-products">Não há nenhum produto cadastrado.</p>
       ) : (
@@ -46,14 +46,14 @@ const Products = () => {
           {products.map(product => (
             <li key={product.id} className="product-item">
               <div className="product-item-info">
-                <div className="product-item-name">{product.name}</div>
-                <div className="product-item-description">{product.description}</div>
-                <div className="product-item-price">Preço: R$ {product.price}</div>
-                <div className="product-item-stock">Estoque: {product.stock}</div>
+                <div className="product-item-name"><strong>Nome: </strong>{product.name}</div>
+                <div className="product-item-description"><strong>Descrição:</strong> {product.description}</div>
+                <div className="product-item-price"><strong>Preço:</strong> R$ {product.price}</div>
+                <div className="product-item-stock"><strong>Estoque:</strong> {product.stock}</div>
               </div>
               <div className="product-buttons">
-                <button onClick={() => handleRemove(product.id)} className="btn delete-btn">Remover</button>
                 <Link to={`/produtos/editar/${product.id}`} className="btn edit-btn">Editar</Link>
+                <button onClick={() => handleRemove(product.id)} className="btn delete-btn">Remover</button>
               </div>
             </li>
           ))}
