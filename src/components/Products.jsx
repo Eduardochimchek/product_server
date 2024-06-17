@@ -1,4 +1,3 @@
-// Products.js
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Products.css';
@@ -23,7 +22,6 @@ const Products = () => {
     }
   };
 
-  
   const handleRemove = async (productId) => {
     try {
       await fetch(`http://localhost:3000/products/${productId}`, {

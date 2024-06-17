@@ -7,17 +7,17 @@
       "email": "admin@gmail.com",
       "role": "Admin",
       "status": "Online"
-    },
-    {
-      "id": "2158",
-      "username": "eduardo",
-      "password": "abcd",
-      "email": "eduardo@gmail.com",
-      "role": "Admin",
-      "status": "Online"
     }
   ],
-  "products": [],
+  "products": [
+    {
+      "id": "8cb1",
+      "name": "teste",
+      "description": "st",
+      "price": "2",
+      "stock": "2"
+    }
+  ],
   "services": [
     {
       "id": "fcbb",

@@ -4,25 +4,26 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #f7f7f7;
-    border-radius: 0px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, color 0.3s;
+    height: 100%;
 }
 
 .products-container h2 {
     margin-bottom: 20px;
-    color: #333;
+    color: #222;
     transition: color 0.3s;
 }
 
 /* Botões */
 .products-container .btn {
-    background-color: #69b75a;
+    background-color: #4caf50;
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     text-align: center;
     margin-bottom: 20px;
@@ -31,8 +32,8 @@
 }
 
 .products-container .btn:hover {
-    background-color: #69b75a; /* Um tom ligeiramente mais escuro */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #45a049;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Lista de Produtos */
@@ -40,29 +41,39 @@
     list-style-type: none;
     padding: 0;
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .product-item {
-    background-color: #fff;
-    margin-bottom: 10px;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
 }
 
-.product-item div {
+.product-item:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-item-info {
+    flex: 1;
+}
+
+.product-item-info > div {
+    margin-bottom: 10px;
 }
 
 /* Botões de Produto */
 .product-buttons .btn {
-    padding: 8px 12px;
+    padding: 10px 15px;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     margin-left: 10px;
     margin-right: 10px;
@@ -78,11 +89,11 @@
 }
 
 .product-buttons .btn:hover {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .product-buttons .edit-btn:hover {
-    background-color: #daa710;
+    background-color: #e0a800;
 }
 
 .product-buttons .delete-btn:hover {
@@ -91,11 +102,12 @@
 
 /* Mensagem de Sem Produtos */
 .no-products {
-    color: #666;
+    color: #999;
     font-size: 18px;
     margin-top: 20px;
     transition: color 0.3s;
 }
-.product-add-btn{
-    background-color: #295e9d !important;
+
+.product-add-btn {
+    background-color: #007bff !important;
 }

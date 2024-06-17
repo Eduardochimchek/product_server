@@ -139,18 +139,20 @@ const Services = () => {
               <div>
                 <strong>{service.name}</strong> - {service.description}
                 <br />
-                <strong>Preço:</strong> R$ {service.price} <strong>Categoria:</strong> {service.category} <strong>Duração:</strong> {service.duration} horas
-</div>
-<div className="service-buttons">
-<button onClick={() => handleEditService(service)} className="btn edit-btn">Editar</button>
-<button onClick={() => handleRemoveService(service.id)} className="btn delete-btn">Remover</button>
-</div>
-</li>
-))}
-</ul>
-)}
-</div>
-);
+                <strong>Preço:</strong> R$ {service.price} <br />
+                <strong>Categoria:</strong> {service.category} <br />
+                <strong>Duração:</strong> {service.duration} horas
+              </div>
+              <div className="service-buttons">
+                <button onClick={() => handleEditService(service)} className="btn edit-btn">Editar</button>
+                <button onClick={() => handleRemoveService(service.id)} className="btn delete-btn">Remover</button>
+              </div>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
 };
 
 export default Services;

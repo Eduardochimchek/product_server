@@ -128,7 +128,7 @@ const Users = () => {
               <div>
                 <strong>{user.username}</strong> - {user.email}
                 <br />
-                <strong>Cargo:</strong> {user.role} <strong>Status:</strong> {user.status}
+                <strong>Cargo:</strong> {user.role} <br /><strong>Status:</strong> {user.status}
               </div>
               <div className="user-buttons">
                 <Link to={`/usuarios/editar/${user.id}`} className="btn edit-btn">Editar</Link>
