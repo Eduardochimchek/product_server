@@ -58,36 +58,36 @@ const EditUser = () => {
       <h2>Editar Usuário</h2>
       <form onSubmit={handleSubmit} className="edit-user-form">
         <div className="form-group">
-          <label htmlFor="name">Nome:</label>
           <input
             type="text"
             id="name"
             name="name"
+            placeholder='Nome'
             value={user.name}
             onChange={handleInputChange}
           />
         </div>
         <div className="form-group">
-          <label htmlFor="email">E-mail:</label>
           <input
             type="email"
             id="email"
             name="email"
+            placeholder='E-mail'
             value={user.email}
             onChange={handleInputChange}
           />
         </div>
         <div className="form-group">
-          <label htmlFor="password">Senha:</label>
           <input
             type="password"
             id="password"
             name="password"
+            placeholder='Senha'
             value={user.password}
             onChange={handleInputChange}
           />
         </div>
-        <button type="submit" className="btn">Salvar</button>
+        <button type="submit" className="btn user-save-btn">Salvar</button>
         <button type="button" className="cancel-btn" onClick={handleGoBack}>Cancelar</button>
       </form>
     </div>

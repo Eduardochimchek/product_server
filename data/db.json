@@ -17,22 +17,14 @@
       "status": "Online"
     }
   ],
-  "products": [
-    {
-      "id": "30c0",
-      "name": "dfsd",
-      "description": "sdfs",
-      "price": "5",
-      "stock": "5"
-    }
-  ],
+  "products": [],
   "services": [
     {
-      "id": "f350",
+      "id": "fcbb",
       "name": "1",
-      "description": "1",
-      "price": "1",
-      "category": "1",
+      "description": "2",
+      "price": "2",
+      "category": "2",
       "duration": "1"
     }
   ]
